@@ -15,8 +15,6 @@ def get_lyrics(artist,song_title):
     
     try:
         content = urllib.request.urlopen(url).read()
-#        soup = BeautifulSoup(content, 'html.parser')
-#        lyrics = str(soup)
         lyrics = str(content)    
         # lyrics lies between start and end
         start = '<!-- Usage of azlyrics.com content by any third-party lyrics provider is prohibited by our licensing agreement. Sorry about that. -->'
