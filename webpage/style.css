@@ -1,0 +1,66 @@
+html {
+    min-height: 100%;
+    font-family: Lato;    
+}
+
+body {
+    background: #e0fff5; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e0fff5, #80cbb2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e0fff5, #80cbb2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e0fff5, #80cbb2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e0fff5, #80cbb2); /* Standard syntax */
+    min-height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 50px;
+
+    width: 70% ;
+    min-width: 300px;
+    
+
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.song-name {
+    border-width: 5px;
+    border-color: black;
+
+    float: left;
+    font-size: 16pt;
+    max-width: 60%;
+}
+
+.artist {
+    font-weight: bold;
+    color: #325046;
+}
+
+.song-title {
+    font-weight: lighter;
+}
+
+.user-selector {
+    float: right;
+    max-width: 40%;
+}
+
+.lyrics {
+    font-size: 12pt;
+}
+
+.break {
+    clear: both;
+    padding-top: 20px;
+}
