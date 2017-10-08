@@ -23,9 +23,11 @@
                 <span class = "song-title" id="song-title"> Sweet moonlight serenade </span>
             </div>
             <div class="user-selector">
-                Input a user: <br>
-                <input type="text" name="username" id="username"><br>
-                <button type="button" onclick="setUser(document.getElementById('username').value)">Get Lyrics!</button>                              
+                <form>
+                    Input a user: <br>  
+                    <input type="text" name="username" id="username" required/><br>
+                    <button type="button" onclick="setUser(document.getElementById('username').value)">Get Lyrics!</button>                              
+                </form>
             </div>
         </div>
         <div class="break"></div>
